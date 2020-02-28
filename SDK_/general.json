@@ -1,0 +1,7 @@
+def cout(*item):
+    new = ''
+    for line in item:
+        new += line
+    print(new)
+    return new
+       
